@@ -1,0 +1,36 @@
+wework:
+  CorpID: xxx
+  Secret: xxx
+  AgentId: xxx
+
+logger:
+  level: debug
+  pretty: true
+  color: true
+
+http:
+  port: 9000
+  enable: true #todo 开启token访问
+  token: sdfsdfkjlk
+
+cors:
+  allowAllOrigins: true
+  allowMethods:
+    - GET
+    - HEAD
+    - POST
+    - PUT
+    - DELETE
+    - CONNECT
+    - OPTIONS
+    - TRACE
+    - PATCH
+  allowHeaders:
+    - Origin
+    - Accept
+    - Content-Type
+    - Authorization
+  exposeHeaders:
+    - Content-Length
+  allowCredentials: true
+  maxAge: 12 # 单位: 小时
